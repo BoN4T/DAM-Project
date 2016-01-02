@@ -1,0 +1,156 @@
+#header{
+  margin-top:10px;
+  background-image: url(../images/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display:block;
+  height:250px;
+  max-width: 100%;
+  width:98.05% !important;
+}
+
+#main {
+    margin-top: 80px;
+	position: relative;
+	width: auto;
+	height: 110px;
+	box-shadow: 0px 0px 10px #888888;
+    background-color: rgba(255,255,255,.6);
+    background-size: cover;
+}
+
+#main h1{
+	color:#191919;
+	font-size:54px;
+	font-weight: 700;
+	position: relative;
+	max-width: 100%;
+	margin-left: 10px;
+	font-family: 'Amatic SC', cursive;
+}
+
+#main p{
+  margin-top: -30px;
+  color:#191919;
+  position: relative;
+  font-size:33px;
+  margin-left: 10px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 400;
+}
+
+header nav{
+  max-width: 100%;
+  width:98.05% !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background:#eeeeee !important;  
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+  text-transform: uppercase;
+}
+
+article{
+    background: #ffffff;
+    max-width: 100%;
+}
+
+.container{
+    margin-left: 10px;
+}
+
+section h3{
+    margin-left:10px;
+}
+
+section h3{
+    text-decoration: underline;
+}
+
+section p,h4,img{
+    margin-left:25px;
+}
+
+div canvas{
+    font-family: 'Amatic SC', cursive;
+}
+
+#canvas{
+    width:auto;
+    height: auto;
+    margin-top:-70px;
+    float:right;
+}
+
+#mapa{
+    text-align: center;
+}
+
+#line{
+    border-bottom:1px solid #d3d3d3;
+}
+
+#centrado{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#textoCentrado{
+    text-align: center;
+    list-style-position:inside;
+}
+
+#white{
+    background: #ffffff;
+    max-width: 100%;
+    display:inline;
+	float: left;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+section p{
+    text-indent: 2em;
+}
+
+p{
+    text-align: justify;
+}
+
+.container div{
+    text-align: center;
+    float:inherit;
+    margin-left: -280px;
+}
+
+.ir-arriba {
+	padding:20px;
+	display:inline-block;
+	background:#373332;
+	color:#fff;
+	position: fixed;
+	font-size:20px;
+	bottom:20px;
+	right:20px;
+	display:none;
+	cursor:pointer;
+}
+
+#pintar{  
+    display: block;
+    margin-left: auto;  
+    margin-right: auto;
+    border: 1px solid #999;
+    background-color: #ebebeb;
+    background-image: url(../images/model_front.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}

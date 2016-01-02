@@ -1,0 +1,50 @@
+#todoVideo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*VIDEO*/
+.player {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px auto;
+    display: block;
+    float: inherit;
+    padding: 10px;
+    width: 90%;
+    max-width: 900px;
+    min-width: 320px;
+}
+/*FIN VIDEO*/
+
+#abajo{
+  width:  640px;
+  margin: auto auto;
+  height: 30px;
+}
+
+#botones{
+  float: left;
+  width: 85px;
+}
+
+#botones i{
+  margin-right: 10px;
+}
+
+#barra{
+  position: relative;
+  float: left;
+  width: 540px;
+  height: 6px;
+  margin-top: 6px;
+  padding: 2px;
+  background: #878382;
+}
+
+#barraProgreso{
+  position: absolute;
+  width: 0px;
+  height:  6px;
+  background:  #000;
+  }
