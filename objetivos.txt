@@ -1,0 +1,173 @@
+
+DESARROLLO DE APLICACIONES MULTIMEDIA
+Se va a celebrar en el año 2016 el 
+IV Festival nacional de cine de X 
+(cámbiese X por la 
+ciudad andaluza deseada: Cádiz, Málaga, Sevilla,...),
+ de una semana de duración. 
+Se trata de crear un sitio Web en HTML5 que cumpla 
+los siguientes requisitos: 
+●
+    Utilizar el 
+modelo de cajas
+ o un 
+framework visto en clase 
+para la maquetación total o 
+parcial del sitio.  
+●
+    Debe contener como mínimo 
+tres vídeos
+ con controles personalizados e integrados en 
+el diseño del sitio Web. 
+●
+    Debe contener la 
+programación diaria
+ del evento (una semana de duración). Se 
+proyectarán todas las películas que concursen en el
+ evento, junto con otras de eventos 
+anteriores. En algunos casos, será posible que una 
+misma película sea proyectada en 
+varias ocasiones. También será posible proyectar só
+lo fragmentos de las mismas. 
+●
+    Debe contener 
+información sobre cada película
+ que concurse (título original, año, 
+duración, director, guionistas, banda sonora, fotog
+rafía, reparto, productora, género, 
+sinopsis y críticas de los medios). Al menos debe h
+aber 
+3 películas por género
+ y un 
+mínimo de 
+3 tipos de género
+. 
+●
+    Debe contener información sobre 
+6 directores de cine
+. Cada uno ocupará una página 
+que contendrá además de texto, imágenes, vídeos o p
+istas de audio. 
+●
+    Debe contener información sobre el 
+edificio 
+(Teatro, Cine, Parque, Estadio...) en el que 
+se llevará a cabo el evento, incluyendo 
+información 
+sobre el mismo, 
+mapa 
+para su 
+localización e 
+imágenes
+. 
+●
+    Debe contener información sobre la 
+ciudad
+. Con al menos 
+una página específica 
+de 
+los sitios 
+gastronómicos 
+y otra de los sitios 
+monumentales
+ e 
+históricos
+. 
+●
+    Debe incluir una 
+galería de imágenes
+ que resuma el evento. Mínimo 20 fotos.  
+●
+    Debe incluir una página con información estadístic
+a realizada con el framework Chart.js: 
+○
+    Ingresos en millones de € de los distintos géneros
+ de películas en Europa, 
+América, Asia, África y Oceanía durante el último a
+ño. 
+○
+    Porcentaje de ventas en España de los distintos gé
+neros. 
+●
+    El título del sitio Web (
+IV Festival nacional de cine de X
+) debe realizarse en canvas y 
+debe aparecer al menos en la página de Inicio o Hom
+e. 
+●
+    Usar 
+CreateJS 
+para incluir elementos interactivos en la Web. Ejem
+plo: juego de 
+organizar películas en géneros, asociar nombre de p
+elículas a su portada 
+correspondiente, etc. 
+●
+    Usar al menos una 
+fuente tipográfica Web
+. 
+●
+    El uso de 
+elementos multimedia
+ y su integración en el diseño del sitio Web serán 
+importantes en la 
+valoración
+. 
+●
+    Debe prestarse especial atención a los conceptos t
+eóricos del tema 2 en cuanto diseño, 
+interacción, usabilidad, etc. 
+●
+    Adjuntar un manual (1-10 páginas) que recoja: 
+○
+    Organigrama que muestre las páginas Web y sus rela
+ciones. 
+○
+    En caso de usar tecnologías no vistas en clase de 
+incluirse un breve resumen  
+justificando 
+su uso.  
+○
+    Descripción de las principales dificultades encont
+radas en la realización del 
+proyecto e indicación de las soluciones adoptadas. 
+○
+    Esquema, si el trabajo ha sido realizado por dos e
+studiantes, de las partes que 
+ha abordado cada uno. 
+○
+    Tabla que indique para cada recurso o contenido el
+ archivo HTML en el que se 
+encuentra y la forma de llegar a ellos usando el si
+stema de navegación (barra de 
+menús). Esto último se hará de forma esquemática. P
+or ejemplo: Menú principal 
+→
+ Ciudad 
+→
+ Gastronomía. Se deberá usar la tabla que aparece a
+l final de este 
+documento. Una misma fila puede contener varios rec
+ursos o contenidos. Por 
+ejemplo, la fila “Video” recogerá al menos informac
+ión sobre 3 vídeos. 
+Mejoras optativas: 
+●
+    Uso de gráficos 
+SVG
+. 
+●
+    Uso de animación. 
+●
+    Crear una 
+aplicación de escritorio
+. 
+Se valorará el trabajo en equipo (2 estudiantes). E
+l trabajo deberá mostrar la mayor uniformidad 
+e integración posible. 
+En cualquier caso, el guión de la práctica indica l
+os contenidos mínimos para superar la misma. 
+Los estudiantes son libres de ampliarla y mejorarla
+. Se valorará el buen uso de las tecnologías 
+tratadas en clase.  
+                                                                       
