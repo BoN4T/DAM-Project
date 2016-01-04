@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>IV Festival nacional de cine de Cádiz</title>
+	<!--CSS-->
+	<link href="style/960.css" rel="stylesheet">
+	<link href="style/navBar.css" rel="stylesheet">
+	<link href="style/footer.css" rel="stylesheet">
+	<link href="style/main.css" rel="stylesheet">
+	<link href="style/video.css" rel="stylesheet">
+	<!--Fonts-->
+	<!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>-->
+	<link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+	<!--<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">-->
+	<!--JS-->
+    <script src="js/jquery-latest.js"></script>
+	<script src="js/Chart.min.js"></script>
+    <script src="js/legend.js"></script>
+    <script src="js/misgraficos.js"></script>
+	<link href="style/leyendas.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="draw()">
+	<header class="container_12">
+		<!--HEADER & BACKGROUND-->
+		<div id="" class="grid_12">
+		    <div id="main">
+                <h1>IV Festival nacional de cine de Cádiz</h1>
+			    <p>Septiembre 5-11, 2016</p>
+		    </div>
+		</div>
+		<div class="clear"></div>
+		
+		<!--NAVBAR-->
+		<nav id='cssmenu' class="grid_12">
+			<ul>
+			   <li><a href='index.html'><span><i class="fa fa-home"></i> Inicio</span></a></li>
+			   <li class=''><a href=''><span><i class="fa fa-info-circle"></i> Programación</span></a></li>
+			   <li class='active has-sub'><a href=''><span><i class="fa fa-paint-brush"></i> Películas</span></a>
+				 <ul>
+					 <li class='has-sub'><a href=''><span>Genero 1</span></a>
+						<ul>
+						   <li><a href=''><span>Película 1</span></a></li>
+						   <li><a href=''><span>Película2</span></a></li>
+						   <li class='last'><a href=''><span>Película 3</span></a></li>
+						</ul>
+					 </li>
+					 <li class='has-sub'><a href=''><span>Genero 2</span></a>
+						<ul>
+						   <li><a href=''><span>Película 4</span></a></li>
+						   <li><a href=''><span>Película 5</span></a></li>
+						   <li class='last'><a href=''><span>Película 6</span></a></li>
+						</ul>
+					 </li>
+					 <li class='has-sub'><a href=''><span>Genero 3</span></a>
+						<ul>
+						   <li><a href=''><span>Película 7</span></a></li>
+						   <li><a href=''><span>Película 8</span></a></li>
+						   <li class='last'><a href=''><span>Película 9</span></a></li>
+						</ul>
+					 </li>
+					 <li class='has-sub'><a href=''><span>Genero 4</span></a>
+						<ul>
+						   <li><a href=''><span>Película 10</span></a></li>
+						   <li><a href=''><span>Película 11</span></a></li>
+						   <li class='last'><a href=''><span>Película 12</span></a></li>
+						</ul>
+					 </li>
+					 <li class='has-sub'><a href=''><span>Genero 5</span></a>
+						<ul>
+						   <li><a href=''><span>Película 13</span></a></li>
+						   <li><a href=''><span>Película 14</span></a></li>
+						   <li class='last'><a href=''><span>Película 15</span></a></li>
+						</ul>
+					 </li>
+					 <li class='has-sub'><a href=''><span>Genero 6</span></a>
+						<ul>
+						   <li><a href=''><span>Película 16</span></a></li>
+						   <li><a href=''><span>Película 17</span></a></li>
+						   <li class='last'><a href=''><span>Película 18</span></a></li>
+						</ul>
+					 </li>
+				  </ul>
+			   </li>
+			   <li class='active has-sub'><a href=''><span><i class="fa fa-users"></i> Directores</span></a>
+				  <ul>
+					 <li><a href=''><span>Amanda Murphy</span></a></li>
+					 <li><a href=''><span>Amanda Wellsh</span></a></li>
+					 <li><a href=''><span>Andreea Diaconu</span></a></li>
+					 <li><a href=''><span>Anna Ewers</span></a></li>
+					 <li><a href=''><span>Ashleigh Good</span></a></li>
+					 <li><a href=''><span>Cindy Bruna</span></a></li>
+					 <li><a href=''><span>Aymeline Valade</span></a></li>
+					 <li><a href=''><span>Binx Walton</span></a></li>
+					 <li><a href=''><span>Chiharu Okunugi</span></a></li>
+					 <li><a href=''><span>Abiah Hostvedt</span></a></li>
+					 <li><a href=''><span>Adrien Sahores</span></a></li>
+					 <li><a href=''><span>Alessio Pozzi</span></a></li>
+				  </ul>
+			   </li>
+			   <li><a href=''><span><i class="fa fa-picture-o"></i> Galería</span></a></li>
+			   <li><a href=''><span><i class="fa fa-bar-chart"></i> Estadísticas</span></a></li>
+			   <li class='active has-sub'><a href=''><span><i class="fa fa-video-camera"></i> Ciudad</span></a></li>
+					<ul>
+					 <li><a href=''><span>Gastronomia</span></a></li>
+					 <li><a href=''><span>Lugares</span></a></li>
+					 
+				  </ul>
+			   <li class='last'><a href=''><span><i class="fa fa-envelope-o"></i> Contacto</span></a></li>
+			</ul>
+		</nav>		
+		<!--END NAVBAR-->
+		<div class="clear"></div>
+	</header>
+	
+<!--------FIN HEADER, COMIENZO DEL CUERPO PRINCIPAL---------->
+    <section class="container_12">
+		<div id="white"></div>
+		<article class='grid_12'>
+			<h3 id='home_info'> Estadísticas</h3>
+			<canvas id="graf" width="600" height="400"></canvas>
+			<div id="leyenda"></div>
+		</article>
+		
+		
+		
+	</section>
+	
+	<!---DA FOOTER--->
+	<footer class="container_12">
+       <div id="footer" class="grid_12">
+           <nav>
+            <ul id="demo-nav">
+               <div id="social">
+                <li><a id="Twitter" href='http://www.twitter.com/#'><span>Twitter</span></a></li>
+                <li><a id="Facebook" href='http://www.facebook.com/#'><span>Facebook</span></a></li>
+                <li><a id="Google" href='http://plus.google.com'><span>GooglePlus</span></a></li>
+                </div>
+            </ul>
+          </nav>
+          <div class="container">
+              <p class="credit">&copy; 2016 - Manuel Bonat Lucia & Julián Rodríguez Cárave</p>
+          </div>
+	  </div>
+	  <div class="clear"></div>
+	</footer>
+</body>
+</html>
