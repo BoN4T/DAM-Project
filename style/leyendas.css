@@ -5,11 +5,8 @@
     border: 0;
 }
 
-#leyenda{
-	float:inherit;
-}
-
 .legend {
+	float:inherit;
     width: 10em;
     border: 1px solid black;
 }
@@ -30,7 +27,9 @@
     border-radius: 0.5em; /* Comment out if you prefer squarish samples */
     margin-right: 0.5em;
 }
-#graf {
+.graph {
+	display:flex;
 	float:inherit;
 	margin-left: 400pt;
+	margin-bottom: 10pt;
 }

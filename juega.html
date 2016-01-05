@@ -11,18 +11,17 @@
 	<link href="style/footer.css" rel="stylesheet">
 	<link href="style/main.css" rel="stylesheet">
 	<link href="style/video.css" rel="stylesheet">
+	<link href="style/createJuega.css" rel="stylesheet">
 	<!--Fonts-->
 	<!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>-->
 	<link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
 	<!--<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">-->
 	<!--JS-->
     <script src="js/jquery-latest.js"></script>
-	<script src="js/Chart.min.js"></script>
-    <script src="js/legend.js"></script>
-    <script src="js/misgraficos.js"></script>
-	<link href="style/leyendas.css" rel="stylesheet" type="text/css">
+	<script src="libs/createjs-2013.12.12.min.js" type="application/x-javascript"></script>
+    <script src="js/createJuego.js" type="application/x-javascript"></script>
 </head>
-<body onload="draw()">
+<body onload="inicializar()">
 	<header class="container_12">
 		<!--HEADER & BACKGROUND-->
 		<div id="" class="grid_12">
@@ -119,18 +118,10 @@
     <section class="container_12">
 		<div id="white"></div>
 		<article class='grid_12'>
-			<h3 id='home_info'> Ingresos en millones de € de películas por continentes</h3>
-			<canvas class='graph' id="graf" width="600" height="400"></canvas>
-			<div class='legend' id="leyenda"></div>
+			<h3 id='home_info'> ¡Juega!</h3>
+			<p>¡Relaciona las películas con sus géneros!</p>
+			<canvas id="escenario" width="960" height="500">Este navegador no soporta Canvas</canvas>
 		</article>
-			<article class='grid_12'>
-			<h3 id='home_info'> Porcentaje de ventas en España</h3>
-			<canvas class='graph' id="espGraf" width="600" height="400"></canvas>
-			<div class='legend' id="leyendaESP"></div>
-		</article>
-		
-		
-		
 	</section>
 	
 	<!---DA FOOTER--->

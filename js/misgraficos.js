@@ -27,10 +27,10 @@ function draw(){
  
     legend(document.getElementById("leyendaOC"), datosOC);*/
     
-    /*var ctx6 = document.getElementById("espGraf").getContext("2d");
-    var espGrafico = new Chart(ctx6).Bar(datosESP,opcionesESP);
+    var ctx2 = document.getElementById("espGraf").getContext("2d");
+    var espGrafico = new Chart(ctx2).Pie(datosESP,opcionesBarras);
  
-    legend(document.getElementById("leyendaESP"), datosESP);*/
+    legend(document.getElementById("leyendaESP"), datosESP);
 
 };
 
@@ -69,6 +69,45 @@ var datosBarras = {
         }
     ]
 };
+
+var datosESP = [
+    {
+        value: 20,
+        color:"lime",
+        highlight: "green",
+        label: "Comedia"
+    },
+    {
+        value: 25,
+        color:"darkmagenta",
+        highlight: "purple",
+        label: "Accion"
+    },
+    {
+        value: 25,
+        color:"red",
+        highlight: "darkred",
+        label: "Romance"
+    },
+    {
+        value: 5,
+        color:"blue",
+        highlight: "darkblue",
+        label: "Drama"
+    },
+    {
+        value: 15,
+        color:"turquoise",
+        highlight: "darkturquoise",
+        label: "Sci-fi"
+    },
+	{
+        value: 10,
+        color:"yellow",
+        highlight: "gold",
+        label: "Gore"
+    }
+];
 
 var opcionesBarras ={
    //Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
