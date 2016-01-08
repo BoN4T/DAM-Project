@@ -11,17 +11,17 @@
 	<link href="style/footer.css" rel="stylesheet">
 	<link href="style/main.css" rel="stylesheet">
 	<link href="style/video.css" rel="stylesheet">
-	<link href="style/createJuega.css" rel="stylesheet">
+	<link href="style/bootstrap.css" rel="stylesheet">
 	<!--Fonts-->
 	<!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>-->
 	<link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
 	<!--<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">-->
 	<!--JS-->
     <script src="js/jquery-latest.js"></script>
-	<script src="libs/createjs-2013.12.12.min.js" type="application/x-javascript"></script>
-    <script src="js/createJuego.js" type="application/x-javascript"></script>
+	<script src="js/arriba.js"></script>
+	<script src="js/videoIndex.js"></script>
 </head>
-<body onload="inicializar()">
+<body>
 	<header class="container_12">
 		<!--HEADER & BACKGROUND-->
 		<div id="" class="grid_12">
@@ -117,14 +117,55 @@
 	</header>
 	
 <!--------FIN HEADER, COMIENZO DEL CUERPO PRINCIPAL---------->
-    <section class="container_12">
-		<div id="white"></div>
-		<article class='grid_12'>
-			<h3 id='home_info'> ¡Juega!</h3>
-			 <div id="line"></div>
-			<p>¡Relaciona las películas con sus géneros!</p>
-			<canvas id="escenario" width="960" height="500">Este navegador no soporta Canvas</canvas>
+    
+	<section class="container_12">
+		<div id="white">           
+       
+        <article class="grid_12">
+		    <h3>Edificio</h3>
+		   
+		    <div id="line"></div>
+		    
+		    <img id="centrado" src="http://ocadizdigital.es/sites/default/files/noticias/imagen_ppal/parque%20genoves.jpg" alt="edificio">
+		    <p>El Parque Genovés situado en la ciudad de Cádiz (España) es el jardín público o parque más destacado de la ciudad. Se encuentra ubicado en el casco histórico, junto al mar. Su origen está a finales del XVIII, aunque a lo largo de su historia, ha sufrido diversas ampliaciones y remodelaciones.</p>
+				
+		<p>	A finales del siglo XVIII se crea un primer parque en los terrenos situados entre los cuarteles del Camposanto y de la Bomba y la muralla que limitaba con el mar. Era un paseo mal cuidado y desarbolado que era conocido popularmente como el Paseo del Perejil, lo que da idea de lo modesto de sus jardines.</p>
+<p>
+En 1854 sufrió diversas ampliaciones y cambió su nombre por Paseo de las Delicias. El motivo de la ampliación fue la epidemia de cólera que padeció Cádiz en esa época y la de dar trabajo a todas aquellas personas que se encontraban necesitadas y a las que había que darle ocupación. En 1863 se demolió el Cuartel de la Columela, repoblándose el solar con frondosos árboles de distintas especies, entre las que predominaban, fundamentalmente, según documentos de la época, el ciprés americano. En 1875 y a causa de lo espacioso y bien ubanizado del parque, al que se le realizarían nuevas reformas, se conmemoraron las fiestas de la Velada de los Ángeles.</p>
+			
+		<p>La más importante de sus remodelaciones fue llevada a cabo en 1892 por el jardinero valenciano Gerónimo Genovés i Puig del cual recibió su nombre, ya que éste fue cambiado por el actual de Parque Genovés. Se tomó como base el antiguo jardín y se amplió con el denominado Bosque del Ejército, dotándolo con fuentes, cascada con lago, salón de conciertos y café, así como de un número más alto y variado de especies botánicas, algunas de ellas de gran rareza y espectacularidad.</p>
+			
 		</article>
+		
+		<div class="clear"></div>
+		<article class="grid_12">
+		    <h3>Imágenes</h3>
+		   
+		    <div id="line"></div>
+		    
+		    <div class="container">
+			   <ul class="row">
+				   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumbnail"><img src="images/Edificio/6.jpg"/></li>
+				   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumbnail"><img src="images/Edificio/2.jpg"/></li>
+				   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumbnail"><img src="images/Edificio/3.jpg"/></li>
+				   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumbnail"><img src="images/Edificio/4.jpg"/></li>
+				   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumbnail"><img src="images/Edificio/5.jpg"/></li>
+			   </ul>
+			</div>
+			
+		</article>
+		
+		<div class="clear"></div>
+		<article class="grid_12">
+			<h3>Mapa</h3>
+			<div id="line"></div>
+			<div id="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.7506808738544!2d-6.30599008429672!3d36.53600888000364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0dd15dca5d0291%3A0x57027db958bf6b14!2sParque+Genov%C3%A9s!5e0!3m2!1ses!2ses!4v1452253505272" width="70%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+			
+		
+		</article>
+       </div> 
 	</section>
 	
 	<!---DA FOOTER--->

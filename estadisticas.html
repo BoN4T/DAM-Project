@@ -36,9 +36,9 @@
 		<!--NAVBAR-->
 		<nav id='cssmenu' class="grid_12">
 			<ul>
-			   <li><a href='index.html'><span><i class="fa fa-home"></i> Inicio</span></a></li>
-			   <li class=''><a href=''><span><i class="fa fa-info-circle"></i> Programación</span></a></li>
-			   <li class='active has-sub'><a href=''><span><i class="fa fa-paint-brush"></i> Películas</span></a>
+			   <li><a href='index.html'><span> Inicio</span></a></li>
+			   <li class=''><a href='programacion.html'><span> Programación</span></a></li>
+			   <li class='active has-sub'><a href=''><span> Películas</span></a>
 				 <ul>
 					 <li class='has-sub'><a href=''><span>Genero 1</span></a>
 						<ul>
@@ -84,34 +84,36 @@
 					 </li>
 				  </ul>
 			   </li>
-			   <li class='active has-sub'><a href=''><span><i class="fa fa-users"></i> Directores</span></a>
-				  <ul>
-					 <li><a href=''><span>Amanda Murphy</span></a></li>
-					 <li><a href=''><span>Amanda Wellsh</span></a></li>
-					 <li><a href=''><span>Andreea Diaconu</span></a></li>
-					 <li><a href=''><span>Anna Ewers</span></a></li>
-					 <li><a href=''><span>Ashleigh Good</span></a></li>
-					 <li><a href=''><span>Cindy Bruna</span></a></li>
-					 <li><a href=''><span>Aymeline Valade</span></a></li>
-					 <li><a href=''><span>Binx Walton</span></a></li>
-					 <li><a href=''><span>Chiharu Okunugi</span></a></li>
-					 <li><a href=''><span>Abiah Hostvedt</span></a></li>
-					 <li><a href=''><span>Adrien Sahores</span></a></li>
-					 <li><a href=''><span>Alessio Pozzi</span></a></li>
-				  </ul>
-			   </li>
-			   <li><a href=''><span><i class="fa fa-picture-o"></i> Galería</span></a></li>
-			   <li><a href=''><span><i class="fa fa-bar-chart"></i> Estadísticas</span></a></li>
-			   <li class='active has-sub'><a href=''><span><i class="fa fa-video-camera"></i> Ciudad</span></a></li>
+			   <li class='active has-sub'><a href=''><span> Directores</span></a>
 					<ul>
-					 <li><a href=''><span>Gastronomia</span></a></li>
-					 <li><a href=''><span>Lugares</span></a></li>
-					 
-				  </ul>
-			   <li class='last'><a href=''><span><i class="fa fa-envelope-o"></i> Contacto</span></a></li>
+						<li><a href=''><span>Amanda Murphy</span></a></li>
+						<li><a href=''><span>Amanda Wellsh</span></a></li>
+						<li><a href=''><span>Andreea Diaconu</span></a></li>
+						<li><a href=''><span>Anna Ewers</span></a></li>
+						<li><a href=''><span>Ashleigh Good</span></a></li>
+						<li><a href=''><span>Cindy Bruna</span></a></li>
+						<li><a href=''><span>Aymeline Valade</span></a></li>
+						<li><a href=''><span>Binx Walton</span></a></li>
+						<li><a href=''><span>Chiharu Okunugi</span></a></li>
+						<li><a href=''><span>Abiah Hostvedt</span></a></li>
+						<li><a href=''><span>Adrien Sahores</span></a></li>
+						<li><a href=''><span>Alessio Pozzi</span></a></li>
+					</ul>
+			   </li>
+			   <li><a href='galeria.html'><span> Galería</span></a></li>
+			   <li><a href='estadisticas.html'><span> Estadísticas</span></a></li>
+			   <li class='active has-sub'><a href='ciudad.html'><span> Ciudad</span></a>
+					<ul>
+						<li><a href='edificio.html'><span>Edificio</span></a></li>
+						<li><a href='gastronomia.html'><span>Gastronomia</span></a></li>
+						<li><a href='lugares.html'><span>Lugares</span></a></li>
+				 	</ul>
+				</li>
+				<li><a href='juega.html'><span> Juega</span></a></li>
+			   	<li class='last'><a href=''><span> Contacto</span></a></li>
 			</ul>
 		</nav>		
-		<!--END NAVBAR-->
+		<!--FIN NAVBAR-->
 		<div class="clear"></div>
 	</header>
 	
@@ -120,11 +122,13 @@
 		<div id="white"></div>
 		<article class='grid_12'>
 			<h3 id='home_info'> Ingresos en millones de € de películas por continentes</h3>
+			 <div id="line"></div>
 			<canvas class='graph' id="graf" width="600" height="400"></canvas>
 			<div class='legend' id="leyenda"></div>
 		</article>
 			<article class='grid_12'>
 			<h3 id='home_info'> Porcentaje de ventas en España</h3>
+				 <div id="line"></div>
 			<canvas class='graph' id="espGraf" width="600" height="400"></canvas>
 			<div class='legend' id="leyendaESP"></div>
 		</article>
