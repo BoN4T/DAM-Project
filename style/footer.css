@@ -1,6 +1,6 @@
 #footer {
   	clear:both;
-  	background: #373332;
+  	background: #1a237e;
   	color: #a7a3a2;
   	width:98.05% !important;
   	border-top: 1px solid #878382;
@@ -12,6 +12,7 @@
 	font-size: 0.875em;
 	float: left;
 	padding: 0.5em 0;
+	color: #fafafa;
 }
 
 footer .credit {

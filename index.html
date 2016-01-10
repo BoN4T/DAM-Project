@@ -10,17 +10,15 @@
 	<link href="style/navBar.css" rel="stylesheet">
 	<link href="style/footer.css" rel="stylesheet">
 	<link href="style/main.css" rel="stylesheet">
-	<!--Fonts-->
-	<!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>-->
-	<link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
-	<!--<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">-->
+	<!--Fuentes-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
 	<!--JS-->
     <script src="js/jquery-latest.js"></script>
 </head>
 <body>
 	<header class="container_12">
 		<!--HEADER Y BACKGROUND-->
-		<div id="" class="grid_12">
+		<div class="grid_12">
 		    <div id="main">
                 <h1>IV Festival nacional de cine de Cádiz</h1>
 			    <p>Septiembre 5-11, 2016</p>
@@ -33,9 +31,9 @@
 			<ul>
 			   <li><a href='index.html'><span> Inicio</span></a></li>
 			   <li class=''><a href='programacion.html'><span> Programación</span></a></li>
-			   <li class='active has-sub'><a href=''><span> Películas</span></a>
+			   <li class='has-sub'><a><span> Películas</span></a>
 				 <ul>
-					 <li class='has-sub'><a href=''><span>Animación</span></a>
+					 <li class='has-sub'><a><span>Animación</span></a>
 						<ul>
 						   <li><a href='viaje.html'><span>El viaje de Chihiro</span></a></li>
 						   <li><a href='pesadillas.html'><span>Pesadillas antes de Navidad</span></a></li>
@@ -43,23 +41,23 @@
 						</ul>
 					 </li>
 				
-					 <li class='has-sub'><a href=''><span>Ciencia Ficción</span></a>
+					 <li class='has-sub'><a><span>Ciencia Ficción</span></a>
 						<ul>
 						  <li><a href='odisea.html'><span>2001 odisea en el espacio</span></a></li>
 						   <li class='last'><a href='futuro.html'><span>Regreso al Futuro</span></a></li>
 						   <li class='last'><a href='starwars.html'><span>La guerra de las galaxias. Episodio V: El imperio contraataca</span></a></li>
 						</ul>
 					 </li>
-					 <li class='has-sub'><a href=''><span>Drama</span></a>
+					 <li class='has-sub'><a><span>Drama</span></a>
 						<ul>
 						   <li><a href='whiplash.html'><span>Whiplash</span></a></li>
-						   <li><a href=''><span>El Padrino</span></a></li>
+						   <li><a href='padrino.html'><span>El Padrino</span></a></li>
 						   <li class='last'><a href='cadena.html'><span>Cadena Perpetua</span></a></li>
 						</ul>
 					 </li>
 				  </ul>
 			   </li>
-			   <li class='active has-sub'><a href=''><span> Directores</span></a>
+			   <li class='active has-sub'><a><span> Directores</span></a>
 					<ul>
 						<li><a href='tarantino.html'><span>Quentin Tarantino</span></a></li>
 						<li><a href='steven.html'><span>Steven Spielberg</span></a></li>
@@ -71,7 +69,7 @@
 			   </li>
 			   <li><a href='galeria.html'><span> Galería</span></a></li>
 			   <li><a href='estadisticas.html'><span> Estadísticas</span></a></li>
-			   <li class='active has-sub'><a href=''><span> Ciudad</span></a>
+			   <li class='active has-sub'><a><span> Ciudad</span></a>
 					<ul>
 						<li><a href='edificio.html'><span>Edificio</span></a></li>
 						<li><a href='gastronomia.html'><span>Gastronomia</span></a></li>
@@ -93,27 +91,28 @@
         <article class="grid_12">
 		    <h3>Edificio</h3>
 		    <!--EMPIEZA CANVAS-->
-                    <canvas class="arriba" id="canvas" width="550" height="85">Navegador no compatible con Canvas.</canvas>
+                    <canvas id="canvas" width="550" height="85">Navegador no compatible con Canvas.</canvas>
                     <script>
                         var canvas = document.getElementById('canvas');
                         var ctx = canvas.getContext('2d');
                         var link = document.createElement('link');
                         link.rel = 'stylesheet';
                         link.type = 'text/css';
-                        link.href = 'http://fonts.googleapis.com/css?family=Amatic+SC:400,700';
+                        link.href = 'https://fonts.googleapis.com/css?family=Roboto:300';
                         document.getElementsByTagName('head')[0].appendChild(link);
 
                         var image = new Image;
                         image.src = link.href;
                         image.onerror = function() {
-                            ctx.font = '40px "Amatic SC"';
+                            ctx.font = '29px "Roboto"';
                             ctx.textBaseline = 'top';
-                            ctx.fillText('IV Festival nacional de cine de Cádiz', 20, 10);
+														ctx.fillStyle = '#212121';
+                            ctx.fillText('IV Festival nacional de cine de Cádiz', 70, 30);
+													
                         };
                     </script>
             <!--FIN CANVAS-->
 		    <div id="line"></div>
-		    
 		    <img id="centrado" src="images/Edificio/1.jpg" alt="edificio">
 		    <p>El Parque Genovés situado en la ciudad de Cádiz (España) es el jardín público o parque más destacado de la ciudad. Se encuentra ubicado en el casco histórico, junto al mar. Su origen está a finales del XVIII, aunque a lo largo de su historia, ha sufrido diversas ampliaciones y remodelaciones.</p>
 				
@@ -124,8 +123,6 @@ En 1854 sufrió diversas ampliaciones y cambió su nombre por Paseo de las Delic
 		<p>La más importante de sus remodelaciones fue llevada a cabo en 1892 por el jardinero valenciano Gerónimo Genovés i Puig del cual recibió su nombre, ya que éste fue cambiado por el actual de Parque Genovés. Se tomó como base el antiguo jardín y se amplió con el denominado Bosque del Ejército, dotándolo con fuentes, cascada con lago, salón de conciertos y café, así como de un número más alto y variado de especies botánicas, algunas de ellas de gran rareza y espectacularidad.</p>
 			
 		</article>
-		
-		<div class="clear"></div>
 		
 		<article class="grid_12">
 			<div id="line"></div>
@@ -171,7 +168,7 @@ En 1854 sufrió diversas ampliaciones y cambió su nombre por Paseo de las Delic
                     <li>$1.668.984.926</li>
                     <li>$1.570.398.252</li>
                     <li>$1.519.557.910</li>
-					<li>$1.515.047.671</li>
+										<li>$1.515.047.671</li>
                     <li>$1.405.035.767</li>
                     <li>$1.341.511.219</li>
                     <li>$1.274.219.00</li>
@@ -183,7 +180,7 @@ En 1854 sufrió diversas ampliaciones y cambió su nombre por Paseo de las Delic
 		</div> 
 	</section>
 	
-	<!---DA FOOTER--->
+	<!--FOOTER-->
 	<footer class="container_12">
        <div id="footer" class="grid_12">
            <nav>

@@ -20,31 +20,31 @@ var datosBarras = {
         {
             label: "Europa",
             fillColor: "#01579b",
-            strokeColor: "rgba(220,220,220,0.8)",
+            strokeColor: "rgba(0,0,0,0)",
             data: [400, 450, 375, 123, 221, 90]
         },
 		{
             label: "América",
             fillColor: "#b71c1c",
-            strokeColor: "rgba(220,220,220,0.8)",
+            strokeColor: "rgba(0,0,0,0)",
             data: [654, 234, 464, 789, 687, 445]
         },
 		{
             label: "Asia",
             fillColor: "#fdd835",
-            strokeColor: "rgba(220,220,220,0.8)",
+            strokeColor: "rgba(0,0,0,0)",
             data: [500, 300, 550, 726, 600, 400]
         },
 		{
             label: "África",
             fillColor: "#6d4c41",
-            strokeColor: "rgba(220,220,220,0.8)",
+            strokeColor: "rgba(0,0,0,0)",
             data: [43, 12, 43, 76, 55, 45]
         },
 		{
             label: "Oceanía",
             fillColor: "#558b2f",
-            strokeColor: "rgba(220,220,220,0.8)",
+            strokeColor: "rgba(0,0,0,0)",
             data: [123, 78, 131, 346, 233, 165]
         }
     ]
