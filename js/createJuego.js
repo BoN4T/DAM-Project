@@ -4,15 +4,18 @@ function inicializar()
 {   
     stage = new createjs.Stage('escenario');
 	
-	crearElemento('Pelicula','yellow');
-	crearElemento('Pelicula2','yellow');
-	crearElemento('Pelicula3','yellow');
-	crearElemento('Pelicula4','yellow');
-	crearElemento('Pelicula5','yellow');
-	crearElemento('Pelicula6','yellow');
-	crearElemento('Genero','lightblue');
-	crearElemento('Genero2','lightblue');
-	crearElemento('Genero3','lightblue');
+	var movieColor = '#ffee58';
+	var genreColor = '#f44336';
+	
+	crearElemento('Regreso al Futuro',movieColor);
+	crearElemento('El Viaje de Chihiro',movieColor);
+	crearElemento('Odisea en el Espacio',movieColor);
+	crearElemento('Star Wars V',movieColor);
+	crearElemento('Whiplash',movieColor);
+	crearElemento('Toy Story',movieColor);
+	crearElemento('Animación',genreColor);
+	crearElemento('Ciencia Ficción',genreColor);
+	crearElemento('Drama',genreColor);
 }
 
 function crearElemento(nombre,color)

@@ -7,26 +7,6 @@ function draw(){
     
   	legend(document.getElementById("leyenda"), datosBarras);
     
-   /* var ctx2 = document.getElementById("amGraf").getContext("2d");
-    var amGrafico = new Chart(ctx2).Bar(datosAM,opcionesAM);
- 
-    legend(document.getElementById("leyendaAM"), datosAM);
-    
-    var ctx3 = document.getElementById("asGraf").getContext("2d");
-    var asGrafico = new Chart(ctx3).bar(datosAS,opcionesAS);
- 
-    legend(document.getElementById("leyendaAS"), datosAS);
-	
-	var ctx4 = document.getElementById("afGraf").getContext("2d");
-    var afGrafico = new Chart(ctx4).Bar(datosAF,opcionesAF);
-    
-    legend(document.getElementById("leyendaAF"), datosAF);
-    
-    var ctx5 = document.getElementById("ocGraf").getContext("2d");
-    var ocGrafico = new Chart(ctx5).Bar(datosOC,opcionesOC);
- 
-    legend(document.getElementById("leyendaOC"), datosOC);*/
-    
     var ctx2 = document.getElementById("espGraf").getContext("2d");
     var espGrafico = new Chart(ctx2).Pie(datosESP,opcionesBarras);
  
@@ -35,37 +15,37 @@ function draw(){
 };
 
 var datosBarras = {
-    labels: ["Genero 1", "Genero 2", "Genero 3", "genero 4", "genero 5", "genero 6"],
+    labels: ["Comedia", "Acción", "Romance", "Drama", "Sci-fi", "Gore"],
     datasets:[
         {
             label: "Europa",
-            fillColor: "blue",
+            fillColor: "#01579b",
             strokeColor: "rgba(220,220,220,0.8)",
-            data: [500, 300, 550, 726, 600, 400]
+            data: [400, 450, 375, 123, 221, 90]
         },
 		{
             label: "América",
-            fillColor: "red",
+            fillColor: "#b71c1c",
             strokeColor: "rgba(220,220,220,0.8)",
-            data: [500, 300, 550, 726, 600, 400]
+            data: [654, 234, 464, 789, 687, 445]
         },
 		{
             label: "Asia",
-            fillColor: "yellow",
+            fillColor: "#fdd835",
             strokeColor: "rgba(220,220,220,0.8)",
             data: [500, 300, 550, 726, 600, 400]
         },
 		{
             label: "África",
-            fillColor: "brown",
+            fillColor: "#6d4c41",
             strokeColor: "rgba(220,220,220,0.8)",
-            data: [500, 300, 550, 726, 600, 400]
+            data: [43, 12, 43, 76, 55, 45]
         },
 		{
             label: "Oceanía",
-            fillColor: "green",
+            fillColor: "#558b2f",
             strokeColor: "rgba(220,220,220,0.8)",
-            data: [500, 300, 550, 726, 600, 400]
+            data: [123, 78, 131, 346, 233, 165]
         }
     ]
 };
@@ -73,8 +53,8 @@ var datosBarras = {
 var datosESP = [
     {
         value: 20,
-        color:"lime",
-        highlight: "green",
+        color:"#558b2f",
+        highlight: "lime",
         label: "Comedia"
     },
     {
@@ -85,26 +65,26 @@ var datosESP = [
     },
     {
         value: 25,
-        color:"red",
-        highlight: "darkred",
+        color:"#b71c1c",
+        highlight: "red",
         label: "Romance"
     },
     {
         value: 5,
-        color:"blue",
-        highlight: "darkblue",
+        color:"#1a237e",
+        highlight: "blue",
         label: "Drama"
     },
     {
         value: 15,
-        color:"turquoise",
-        highlight: "darkturquoise",
+        color:"#0097a7",
+        highlight: "turquoise",
         label: "Sci-fi"
     },
 	{
         value: 10,
-        color:"yellow",
-        highlight: "gold",
+        color:"gold",
+        highlight: "yellow",
         label: "Gore"
     }
 ];
