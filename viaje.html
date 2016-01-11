@@ -10,10 +10,14 @@
 	<link href="style/navBar.css" rel="stylesheet">
 	<link href="style/footer.css" rel="stylesheet">
 	<link href="style/main.css" rel="stylesheet">
+	<link href="http://vjs.zencdn.net/5.4.6/video-js.css" rel="stylesheet">
+	<link href="style/video.css" rel="stylesheet">
+	
 	<!--Fuentes-->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
 	<!--JS-->
-    <script src="js/jquery-latest.js"></script>
+  <script src="js/jquery-latest.js"></script>
+	<script src="http://vjs.zencdn.net/ie8/1.1.1/videojs-ie8.min.js"></script>
 </head>
 <body>
 	<header class="container_12">
@@ -161,20 +165,16 @@
 	    	</dl>
             <h3>Video</h3>
 			<div id="line"></div>
-            <div id="todoVideo">
-            <video id="videoJS" class="player" height="352" width="640"> <source src="videos/1.mp4"> 
-            </video>
-            <nav id="abajo">
-                <div id="botones">
-                    <i id="botonPlay" class="fa fa-play"></i>
-                    <i id="botonStop" class="fa fa-stop"></i>
-                    <i id="botonAudio" class="fa fa-volume-up"></i>
-                </div>
-                <div id="barra">
-                  <div id="barraProgreso"></div>
-                </div>
-            </nav>
-        </div>
+            <video id="my-video_1" class="video-js" controls preload="auto" width="800" height="450"
+  poster="black.jpg" data-setup="{	}">
+    <source src="video/1.mp4" type='video/mp4'>
+    <p class="vjs-no-js">
+      Para ver este video, por favor, active JavaScript, y considere usar un navegador web que
+      <a href="http://videojs.com/html5-video-support/" target="_blank">soporte video HTML5</a>
+    </p>
+  </video>
+
+  <script src="http://vjs.zencdn.net/5.4.6/video.js"></script>
 		</article>
 			</div>
         <div class="clear"></div>
