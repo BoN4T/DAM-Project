@@ -1,12 +1,11 @@
 #footer {
-  	clear:both;
-  	background: #1a237e;
-  	color: #a7a3a2;
-  	width:98.05% !important;
-  	border-top: 1px solid #878382;
-  	padding-bottom: 1em;
-	
- }
+	clear:both;
+	background: #1a237e;
+	color: #a7a3a2;
+	width:98.05% !important;
+	border-top: 1px solid #878382;
+	padding-bottom: 1em;
+}
 	
 .credit {
 	font-size: 0.875em;
@@ -30,7 +29,6 @@ footer .credit {
 	padding: 0 0 !important;
 	background: transparent !important;
 	margin-right: 5%;
-
 }
 
 #demo-nav li {
@@ -41,7 +39,7 @@ footer .credit {
 
 #demo-nav span
 {
-    display: none;
+	display: none;
 }
 #social a {  
   display: inline-block;  
@@ -52,28 +50,28 @@ footer .credit {
 
 #Facebook
 {
-    background-position: 0 -46px;
+	background-position: 0 -46px;
 }
 #Twitter
 {
-    background-position: 0 0;
+	background-position: 0 0;
 }
 
 #Google
 {
-    background-position: 0 -92px;
+	background-position: 0 -92px;
 }
 
 #Facebook:hover
 {
-    background-position: -46px -46px;
+	background-position: -46px -46px;
 }
 #Twitter:hover
 {
-    background-position: -46px 0;
+	background-position: -46px 0;
 }
 
 #Google:hover
 {
-    background-position: -46px -92px;
+	background-position: -46px -92px;
 }

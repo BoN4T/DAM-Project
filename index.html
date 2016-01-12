@@ -37,22 +37,22 @@
 						<ul>
 						   <li><a href='viaje.html'><span>El viaje de Chihiro</span></a></li>
 						   <li><a href='pesadillas.html'><span>Pesadillas antes de Navidad</span></a></li>
-						   <li class='last'><a href='toys.html'><span>Toy Story</span></a></li>
+						   <li><a href='toys.html'><span>Toy Story</span></a></li>
 						</ul>
 					 </li>
 				
 					 <li class='has-sub'><a><span>Ciencia Ficción</span></a>
 						<ul>
 						  <li><a href='odisea.html'><span>2001 odisea en el espacio</span></a></li>
-						   <li class='last'><a href='futuro.html'><span>Regreso al Futuro</span></a></li>
-						   <li class='last'><a href='starwars.html'><span>La guerra de las galaxias. Episodio V: El imperio contraataca</span></a></li>
+						   <li><a href='futuro.html'><span>Regreso al Futuro</span></a></li>
+						   <li><a href='starwars.html'><span>La guerra de las galaxias. Episodio V: El imperio contraataca</span></a></li>
 						</ul>
 					 </li>
 					 <li class='has-sub'><a><span>Drama</span></a>
 						<ul>
 						   <li><a href='whiplash.html'><span>Whiplash</span></a></li>
 						   <li><a href='padrino.html'><span>El Padrino</span></a></li>
-						   <li class='last'><a href='cadena.html'><span>Cadena Perpetua</span></a></li>
+						   <li><a href='cadena.html'><span>Cadena Perpetua</span></a></li>
 						</ul>
 					 </li>
 				  </ul>
@@ -87,11 +87,13 @@
     
 	<section class="container_12">
 		<div id="white">           
-		
-        <article class="grid_12">
-		    <h3>Edificio</h3>
-		    <!--EMPIEZA CANVAS-->
-                    <canvas id="canvas" width="550" height="85">Navegador no compatible con Canvas.</canvas>
+			
+				<article class="grid_12">
+					<h2>Inicio</h2>
+					<div id="line"></div>
+					<p>Bienvenidos al</p>
+					<!--EMPIEZA CANVAS-->
+                    <canvas id="canvas" width="900" height="85">Navegador no compatible con Canvas.</canvas>
                     <script>
                         var canvas = document.getElementById('canvas');
                         var ctx = canvas.getContext('2d');
@@ -104,14 +106,19 @@
                         var image = new Image;
                         image.src = link.href;
                         image.onerror = function() {
-                            ctx.font = '29px "Roboto"';
+                            ctx.font = '40px "Roboto"';
                             ctx.textBaseline = 'top';
 														ctx.fillStyle = '#212121';
-                            ctx.fillText('IV Festival nacional de cine de Cádiz', 70, 30);
+                            ctx.fillText('IV Festival nacional de cine de Cádiz', 125, 30);
 													
                         };
                     </script>
             <!--FIN CANVAS-->
+			</article>
+		
+        <article class="grid_12">
+		    <h3>Edificio</h3>
+		    
 		    <div id="line"></div>
 		    <img id="centrado" src="images/Edificio/1.jpg" alt="edificio">
 		    <p>El Parque Genovés situado en la ciudad de Cádiz (España) es el jardín público o parque más destacado de la ciudad. Se encuentra ubicado en el casco histórico, junto al mar. Su origen está a finales del XVIII, aunque a lo largo de su historia, ha sufrido diversas ampliaciones y remodelaciones.</p>

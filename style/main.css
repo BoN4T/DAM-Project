@@ -14,8 +14,8 @@
 	width: auto;
 	height: 140px;
 	box-shadow: 0px 0px 20px #333333;
-    background-color: #3f51b5;
-    background-size: cover;
+	background-color: #3f51b5;
+	background-size: cover;
 }
 
 #main h1{
@@ -63,11 +63,9 @@
 	border: 1px solid #ddd;
 	border-radius: 4px;
 	-webkit-transition: border .2s ease-in-out;
-	   -o-transition: border .2s ease-in-out;
-		  transition: border .2s ease-in-out;
+	-o-transition: border .2s ease-in-out;
+	transition: border .2s ease-in-out;
 }
-
-
 
 header nav{
   max-width: 100%;
@@ -87,12 +85,12 @@ nav{
 
 article{
 	display: block;
-    background: #fafafa;
-    max-width: 100%;
+	background: #fafafa;
+	max-width: 100%;
 }
 
 .container{
-    margin-left: 10px;
+	margin-left: 10px;
 }
 
 section h3{
@@ -101,25 +99,24 @@ section h3{
 	font-family: "Roboto"
 }
 
-
-
 section p,h4,img{
-    margin-left:25px;
+	margin-left:25px;
 }
 
 div canvas{
-    font-family: 'Roboto';
+	font-family: 'Roboto';
 }
 
 #canvas{
-    width:auto;
-    height: auto;
-    margin-top:-70px;
-    float:right;
+	display: block;
+	width:auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #mapa{
-    text-align: center;
+	text-align: center;
 }
 
 #line{
@@ -128,21 +125,21 @@ div canvas{
 }
 
 #centrado{
-    display:flex;
-		margin-top: 10pt;
-    margin-left: auto;
-    margin-right: auto;
+	display:flex;
+	margin-top: 10pt;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #textoCentrado{
-    text-align: center;
-    list-style-position:inside;
+	text-align: center;
+	list-style-position:inside;
 }
 
 #white{
-    background: #fafafa;
-    max-width: 100%;
-    display:inline;
+	background: #fafafa;
+	max-width: 100%;
+	display:inline;
 	float: left;
 	position: relative;
 	margin-left: 1%;
@@ -150,7 +147,7 @@ div canvas{
 }
 
 section p{
-    text-indent: 2em;
+	text-indent: 2em;
 }
 
 p{
@@ -160,9 +157,9 @@ p{
 }
 
 .container div{
-    text-align: center;
-    float:inherit;
-    margin-left: -280px;
+	text-align: center;
+	float:inherit;
+	margin-left: -280px;
 }
 
 .ir-arriba {
@@ -179,14 +176,14 @@ p{
 }
 
 #pintar{  
-    display: block;
-    margin-left: auto;  
-    margin-right: auto;
-    border: 1px solid #999;
-    background-color: #ebebeb;
-    background-image: url(../images/model_front.png);
-    background-position: center;
-    background-repeat: no-repeat;
+	display: block;
+	margin-left: auto;  
+	margin-right: auto;
+	border: 1px solid #999;
+	background-color: #ebebeb;
+	background-image: url(../images/model_front.png);
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 
